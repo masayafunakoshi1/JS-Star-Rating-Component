@@ -1,5 +1,36 @@
+* {
+  background-color: black;
+  color: white;
+}
+
+.star-rater {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  max-width: 60%;
+  position: absolute;
+}
+
+.star-rater span {
+  max-width: 65px;
+  max-height: auto;
+  margin: 10px;
+}
+
+#rater-1 {
+}
+
+#rater-2 {
+  top: 200px;
+}
+
 .star-rater .star {
   font-size: 5rem;
   color: gray;
   cursor: pointer;
+}
+.star:hover {
+  font-size: 5.2rem;
+  transform: scale(1.2);
+  transition: 300ms;
 }
